@@ -59,11 +59,12 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    display: none;
+    transition: 0.2s;
+    opacity: 0;
 }
 
 .card__picture:hover::after {
-    display: flex;
+    opacity: 1;
 }
 
 .card__title {
